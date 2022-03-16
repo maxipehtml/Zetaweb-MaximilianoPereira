@@ -1,7 +1,8 @@
 *{
     font-family: 'DM Sans',sans-serif !important;
     font-size: 102% !important;
-
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -64,9 +65,15 @@ html{
 
 } */
 
+h1, h2 {
+
+    font-size: 200%;
+    letter-spacing: 0.35em; 
+
+}
 .iFrame2{
+
     position: relative;
-    z-index: 0;
     padding-bottom: 56.25%;
 
     height: 0;
@@ -79,11 +86,59 @@ html{
     z-index: 0;
 } */
 
+.main2{
+    padding: 0;
+}
+
+.arteZ{
+
+    margin: 15px;
+}
+
+.tiendaText{
+    padding: 20px;
+}
+
+.contactoZ{
+
+    text-align: center;
+}
+
+.contactoZ1{
+
+    margin-top: 30px;
+}
+
+.contactoZ1 div{
+
+    padding: 0px;
+}
+.contactoZ p{
+
+    margin: 50px ;
+
+
+}
+
+.formularioZ{
+
+    padding: 0;
+}
+
 .iFrame{
-    position:absolute;
-    z-index: 0;
+
+    position: absolute;
     width: 100% ;
     height: 100%;
+
+
+}
+
+
+.sliderZ{
+
+    width: auto ;
+    height: auto;
 
 }
 
@@ -191,7 +246,14 @@ html{
     
 }
 
+li {
+    list-style-type: none
+}
 
+footer{
+
+    background-color: var(--color-dark);
+}
 
 #parrafo{
 
