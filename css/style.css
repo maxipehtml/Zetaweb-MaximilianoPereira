@@ -1,6 +1,6 @@
 *{
     font-family: 'DM Sans',sans-serif !important;
-    font-size: 102% !important;
+    font-size: 102% ;
     margin: 0;
     padding: 0;
 
@@ -20,15 +20,7 @@
     --fa-pull-margin: 0 auto;
 }
 
-.col{
 
-    /* background-color: var(--color-dark); */
-}
-
-.row{
-/* 
-    background-color: var(--color-dark); */
-}
 
 html{
 
@@ -67,7 +59,7 @@ html{
 
 h1, h2 {
 
-    font-size: 200%;
+    font-size: 260%;
     letter-spacing: 0.35em; 
 
 }
@@ -85,6 +77,9 @@ h1, h2 {
 
     z-index: 0;
 } */
+a{
+    text-decoration: none;
+}
 
 .main2{
     padding: 0;
@@ -102,10 +97,6 @@ h1, h2 {
 .contactoZ{
 
     text-align: center;
-}
-
-.contactoZ1{
-
     margin-top: 30px;
 }
 
@@ -124,6 +115,15 @@ h1, h2 {
 
     padding: 0;
 }
+
+.bioZ{
+
+    text-align:left;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 
 .iFrame{
 
