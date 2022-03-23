@@ -74,7 +74,7 @@ a{
 .carrusel{
 
     padding: 0;
-    
+
 }
 
 .artePadding{
@@ -124,18 +124,16 @@ a{
 
     padding: 0px;
 }
-.contactoZ p{
 
-    /* margin-bottom: 50px ; */
-
-
-}
 
 .formularioZ{
 
     padding: 0;
 }
 
+.instSize{
+    font-size: 40px;
+}
 .bioZ{
 
     text-align:left;
@@ -175,9 +173,6 @@ a{
 
 .navbarZ a:hover{
 
-    /* border: outset;
-    border-color: var(--color-azul);
-    border-width: 00.3ch; */
     color: var(--color-rojo);
     border-radius:50%;
     box-shadow: 0 0 20px var(--color-azul);
@@ -231,7 +226,7 @@ a{
 
 #menuhamburguesa{
 
-    /* visibility: hidden; */
+
     display: none;
 
 }
@@ -270,10 +265,7 @@ li {
     list-style-type: none
 }
 
-footer{
-    
-    /* background-color: var(--color-dark); */
-}
+
 
 #parrafo{
 
