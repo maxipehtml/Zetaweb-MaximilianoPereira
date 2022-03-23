@@ -13,6 +13,16 @@
   display: block;
   opacity: 100%;
 }
+.navbarZ ul li a {
+  color: #ec8580;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+.navbarZ ul li a:hover {
+  color: #fc2a4a;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #1535e7;
+}
 .navbarZ ul li ul {
   position: absolute;
   z-index: 1;

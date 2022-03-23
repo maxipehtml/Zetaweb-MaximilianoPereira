@@ -23,7 +23,16 @@
                     
                 }
             }
-
+            a{
+                color: $color-rojoalt ;
+                text-decoration: none; 
+                letter-spacing: 0.1em;
+                &:hover{
+                    color: $color-rojo;
+                    border-radius:50%;
+                    box-shadow: 0 0 20px $color-azul; 
+                        }
+            }
             ul{
 
                 position: absolute;
@@ -52,4 +61,5 @@
             }
         }
     }
+    
 }
