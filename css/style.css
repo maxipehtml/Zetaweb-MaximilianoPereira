@@ -17,7 +17,7 @@
     --color-verde: #36DF63;
     --color-rojo: #fc2a4a;
     --color-rojoalt: #ec8580;
-    --fa-pull-margin: 0 auto;
+
 }
 
 
@@ -162,68 +162,6 @@ a{
 
 
 
-
-.navbarZ a {
-
-    color: var(--color-rojoalt) ;
-    text-decoration: none; 
-    letter-spacing: 0.1em; 
-
-}
-
-.navbarZ a:hover{
-
-    color: var(--color-rojo);
-    border-radius:50%;
-    box-shadow: 0 0 20px var(--color-azul);
-
-}
-
-.navbarZ ul {
-
-    list-style: none;
-
-}
-
-.navbarZ ul li{
-
-    display: inline-block;
-    position: relative;
-    margin: 0;
-
-}
-
-.navbarZ ul ul{
-
-    position: absolute;
-    z-index: 1;
-    display: none;
-    border: outset;
-    border-color: var(--color-beige);
-    background-color: var(--color-dark);
-    border-width: 0.1ch;
-    padding: 0;
-
-}
-
-.navbarZul ul li {
-
-    display: block;
-    margin: 0px;
-    position: relative;
-
-
-}
-
-.navbarZ ul li:hover ul {
-
-    display: block;
-    opacity: 100%;
-    
-   
-
-}
-
 #menuhamburguesa{
 
 
@@ -297,13 +235,4 @@ li {
     
 }
 
-@media (orientation:landscape){
-
-
-}
-
-@media (orientation: portrait){
-
-
-}
 

@@ -1,0 +1,37 @@
+.navbarZ {
+  position: relative;
+}
+.navbarZ ul {
+  list-style: none;
+}
+.navbarZ ul li {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+}
+.navbarZ ul li:hover ul {
+  display: block;
+  opacity: 100%;
+}
+.navbarZ ul li ul {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  border: outset;
+  border-color: #D2CBC3;
+  background-color: #232226;
+  border-width: 0.1ch;
+  padding: 0;
+}
+.navbarZ ul li ul li a {
+  color: #ec8580;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+.navbarZ ul li ul li a:hover {
+  color: #fc2a4a;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #1535e7;
+}
+
+/*# sourceMappingURL=style2.css.map */
