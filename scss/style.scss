@@ -1,4 +1,6 @@
 @import "../base/variables";
+@import "../base/extends";
+@import "../base/mixin";
 
 
 .navbarZ{
@@ -28,9 +30,7 @@
                 text-decoration: none; 
                 letter-spacing: 0.1em;
                 &:hover{
-                    color: $color-rojo;
-                    border-radius:50%;
-                    box-shadow: 0 0 20px $color-azul; 
+                    color: $color-amar;
                         }
             }
             ul{
@@ -51,9 +51,7 @@
                         text-decoration: none; 
                         letter-spacing: 0.1em;
                         &:hover{
-                            color: $color-rojo;
-                            border-radius:50%;
-                            box-shadow: 0 0 20px $color-azul;
+                            color: $color-amar;
                         }
 
                     }
@@ -62,4 +60,41 @@
         }
     }
     
+}
+
+a{
+    transition: .314s;
+    color: $color-rojoalt ;
+    text-decoration: none; 
+    letter-spacing: 0.1em;
+    &:hover{
+        color: $color-amar;
+        text-shadow: 0 0 10px $color-rojo,
+        0 0 20px $color-rojo,
+        0 0 40px $color-rojo,
+        0 0 80px $color-rojo,
+        0 0 120px $color-rojo,
+        0 0 160px $color-rojo;
+
+            }
+}
+
+.arteZ{
+    a{
+    transition: 0.314s;
+    color: $color-azul ;
+    text-decoration: none; 
+    letter-spacing: 0.1em;
+    &:hover{
+        color: $color-rojo;
+        text-shadow: 0 0 10px $color-cyan,
+        0 0 20px $color-cyan,
+        0 0 40px $color-cyan,
+        0 0 80px $color-cyan,
+        0 0 120px $color-cyan,
+        0 0 160px $color-cyan;
+
+            }
+}
+
 }

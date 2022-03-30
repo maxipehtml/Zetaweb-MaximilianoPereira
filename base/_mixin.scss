@@ -1,0 +1,56 @@
+@import "../base/variables";
+@import "../base/maps";
+
+
+@mixin shadowColor($x, $y, $blur, $color){
+   
+    &:hover{
+
+        box-shadow: $x $y $blur $color;
+    }
+    
+}
+
+.mixing1 {
+
+    @include shadowColor(-20px, 0, 25px, map-get($mapcolAlternativo1, rojo));
+
+}
+
+.mixing2 {
+
+    @include shadowColor(-20px, 0, 25px, $color-beige);
+
+}
+
+.mixing3 {
+
+    @include shadowColor(20px, 0, 25px, map-get($mapcolAlternativo1, cyan1));
+
+}
+
+.mixing4 {
+
+    @include shadowColor(20px, 0, 25px, $color-rojoalt);
+
+}
+
+.mixing5 {
+
+    @include shadowColor(-20px, 0, 30px, $color-rojo);
+
+}
+
+.mixing6 {
+
+    @include shadowColor(20px, 0, 30px, $color-cyan);
+
+}
+
+.mixing7 {
+    transition: 3.14s;
+    margin: 10px auto;
+    border-radius:50%;
+    @include shadowColor(0, 0, 50px, $color-verde) ;
+
+}

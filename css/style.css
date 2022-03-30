@@ -181,14 +181,7 @@ a{
     color: var(--color-verde);
 }
 
-.logo2{
 
-    margin: 10px auto;
-    border-radius:50%;
-    box-shadow: 0 0 20px var(--color-azul) !important;
-    
-    
-}
 
 li {
     list-style-type: none

@@ -1,0 +1,11 @@
+%disposicionFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-S{
+    @extend %disposicionFlex;
+}
+
+
