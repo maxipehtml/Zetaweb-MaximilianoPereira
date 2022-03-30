@@ -1,3 +1,42 @@
+.flex-S {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mixing1:hover {
+  box-shadow: -20px 0 25px red;
+}
+
+.mixing2:hover {
+  box-shadow: -20px 0 25px #D2CBC3;
+}
+
+.mixing3:hover {
+  box-shadow: 20px 0 25px cyan;
+}
+
+.mixing4:hover {
+  box-shadow: 20px 0 25px #aa2aff;
+}
+
+.mixing5:hover {
+  box-shadow: -20px 0 30px #fc0859;
+}
+
+.mixing6:hover {
+  box-shadow: 20px 0 30px #59c2ff;
+}
+
+.mixing7 {
+  transition: 3.14s;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+.mixing7:hover {
+  box-shadow: 0 0 50px #3bff6f;
+}
+
 .navbarZ {
   position: relative;
 }
@@ -14,14 +53,12 @@
   opacity: 100%;
 }
 .navbarZ ul li a {
-  color: #ec8580;
+  color: #aa2aff;
   text-decoration: none;
   letter-spacing: 0.1em;
 }
 .navbarZ ul li a:hover {
-  color: #fc2a4a;
-  border-radius: 50%;
-  box-shadow: 0 0 20px #1535e7;
+  color: #B3D883;
 }
 .navbarZ ul li ul {
   position: absolute;
@@ -34,14 +71,34 @@
   padding: 0;
 }
 .navbarZ ul li ul li a {
-  color: #ec8580;
+  color: #aa2aff;
   text-decoration: none;
   letter-spacing: 0.1em;
 }
 .navbarZ ul li ul li a:hover {
-  color: #fc2a4a;
-  border-radius: 50%;
-  box-shadow: 0 0 20px #1535e7;
+  color: #B3D883;
+}
+
+a {
+  transition: 0.314s;
+  color: #aa2aff;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+a:hover {
+  color: #B3D883;
+  text-shadow: 0 0 10px #fc0859, 0 0 20px #fc0859, 0 0 40px #fc0859, 0 0 80px #fc0859, 0 0 120px #fc0859, 0 0 160px #fc0859;
+}
+
+.arteZ a {
+  transition: 0.314s;
+  color: #1535e7;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+.arteZ a:hover {
+  color: #fc0859;
+  text-shadow: 0 0 10px #59c2ff, 0 0 20px #59c2ff, 0 0 40px #59c2ff, 0 0 80px #59c2ff, 0 0 120px #59c2ff, 0 0 160px #59c2ff;
 }
 
 /*# sourceMappingURL=style2.css.map */
