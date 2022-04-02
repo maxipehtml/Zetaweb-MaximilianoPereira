@@ -110,9 +110,32 @@
     </header>
 
 
-    <main class="container-fluid px-lg-4 px-md-3 px-0">
+    <main class="container-fluid px-lg-3 px-md-3 px-0">
+
+        <div class="row g-0 flex-S">
+            <section class="banner col">
+            <div class="containerParallax">
+                <div id="scene">
+                   
+                    <div class="layer" data-depth="0.1
+                    "><img src="./img/hellomundo.jpg" alt=""></div>
+                    <div class="layer" data-depth="0.6"><img src="./img/marco1-min.png" alt=""></div>
+                    <div class="layer" data-depth="0.7"><img src="./img/marco2-min.png" alt=""></div>
+                    <div class="layer" data-depth="0.8"><img src="./img/marco3-min.png" alt=""></div>
+                    <div class="layer" data-depth="0.9"><img src="./img/marco4-min.png" alt=""></div>
+                    
+                    <div class="layer" data-depth="0.45"><img src="./img/sun-min.png" alt=""></div>
+                    <div class="layer" data-depth="0.3"><img src="./img/luna2-min.png" alt=""></div>
+                    <div class="layer" data-depth-x="0.6"><img src="./img/PARAFUNGI1-min.png" alt=""></div>
+                    <div class="layer" data-depth-x="0.7"><img src="./img/PARAFUNGI2-min.png" alt=""></div>
+                </div>
 
 
+            </div>
+
+
+        </section></div>
+        
 
 
         <section class="row g-0 bg-light flex-S " >
@@ -173,7 +196,7 @@
                     <p>Explora todos los productos</p>
                 </div>
 
-                <div class="col-12 col-sm-4 card mixing6" data-aos="fade-left">
+                <div class="col-12 col-sm-4 card mixing6" data-aos="fade-right">
                     <img class="card-img-top" src="./img/joya1.jpg" alt="Card image cap">
                     <div class="card-body ">
                         <h5 class="card-title">JOYAS</h5>
@@ -257,6 +280,10 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);</script>
     <script>
         AOS.init();
     </script>
