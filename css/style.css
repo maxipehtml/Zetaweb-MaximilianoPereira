@@ -20,6 +20,9 @@
 
 }
 
+.bg-dark {
+    background-color: #232226 !important;
+}
 
 .dmstyle{
 
@@ -31,6 +34,7 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    margin-bottom: 40px;
     
 }
 .containerParallax{
