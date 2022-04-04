@@ -90,7 +90,7 @@ footer a:hover {
   font-size: 1.1em;
   letter-spacing: 0.1em;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.7);
+  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.7);
 }
 #menuAnimation a::before {
   content: attr(data-text);
@@ -99,7 +99,7 @@ footer a:hover {
   width: 0;
   overflow: hidden;
   transition: 1s;
-  border-right: 5px solid var(--clr);
+  border-right: 4px solid var(--clr);
   -webkit-text-stroke: 1.5px var(--clr);
 }
 #menuAnimation a:hover::before {
