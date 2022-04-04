@@ -82,7 +82,7 @@ footer a{
     font-size: 1.1em;
     letter-spacing: 0.1em;
     color: transparent;
-    -webkit-text-stroke: 1px rgba(255,255,255,0.7);
+    -webkit-text-stroke: .5px rgba(255,255,255,0.7);
     &::before{
         content: attr(data-text);
         position: absolute;
@@ -90,7 +90,7 @@ footer a{
         width: 0;
         overflow: hidden;
         transition: 1s;
-        border-right: 5px solid var(--clr);
+        border-right: 4px solid var(--clr);
         -webkit-text-stroke: 1.5px var(--clr);
     }
     &:hover::before{
