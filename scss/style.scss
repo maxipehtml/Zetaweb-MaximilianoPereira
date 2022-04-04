@@ -98,3 +98,46 @@ a{
 }
 
 }
+
+.tiendaZ{
+    .textJoyas{
+        font-size: .9rem !important;
+        a{
+            transition: 0.314s;
+            color: $color-rojo ;
+            text-decoration: none; 
+            letter-spacing: 0.1em;
+            &:hover{
+                color: $color-azul;
+                text-shadow: 0 0 10px $color-cyan,
+                0 0 20px $color-cyan,
+                0 0 40px $color-cyan,
+                0 0 80px $color-cyan,
+                0 0 120px $color-cyan,
+                0 0 160px $color-cyan;
+        
+                    }
+    }
+}
+    .textosCarru{
+        font-size: .9rem !important;
+    }
+    .textCuadros a{
+        transition: 0.314s;
+        color: $color-amar ;
+        text-decoration: none; 
+        letter-spacing: 0.1em;
+        &:hover{
+            color: $color-verde;
+            text-shadow: 0 0 10px $color-cyan,
+            0 0 20px $color-cyan,
+            0 0 40px $color-cyan,
+            0 0 80px $color-cyan,
+            0 0 120px $color-cyan,
+            0 0 160px $color-cyan;
+    
+                }
+
+    }
+    
+}

@@ -36,14 +36,16 @@
     height:100vh;
     overflow: hidden;
     margin-bottom: 40px;
+    z-index: -1;
     
 }
 .containerParallax{
 
     position: absolute;
+    z-index: -1;
     left: -10%;
     width: 120%;
-    height: 100vh;
+    height: 50%;
 
 }
 .containerParallax #scene .layer{
@@ -99,11 +101,7 @@ a{
 
 }
 
-.carrusel{
 
-    padding: 0;
-
-}
 
 
 .arteZ{
@@ -205,6 +203,8 @@ a{
  margin: 0;
 
 }
+
+
 
 .menuCenter{
 

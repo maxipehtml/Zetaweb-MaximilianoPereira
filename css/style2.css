@@ -101,4 +101,31 @@ a:hover {
   text-shadow: 0 0 10px #59c2ff, 0 0 20px #59c2ff, 0 0 40px #59c2ff, 0 0 80px #59c2ff, 0 0 120px #59c2ff, 0 0 160px #59c2ff;
 }
 
+.tiendaZ .textJoyas {
+  font-size: 0.9rem !important;
+}
+.tiendaZ .textJoyas a {
+  transition: 0.314s;
+  color: #fc0859;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+.tiendaZ .textJoyas a:hover {
+  color: #1535e7;
+  text-shadow: 0 0 10px #59c2ff, 0 0 20px #59c2ff, 0 0 40px #59c2ff, 0 0 80px #59c2ff, 0 0 120px #59c2ff, 0 0 160px #59c2ff;
+}
+.tiendaZ .textosCarru {
+  font-size: 0.9rem !important;
+}
+.tiendaZ .textCuadros a {
+  transition: 0.314s;
+  color: #B3D883;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+.tiendaZ .textCuadros a:hover {
+  color: #3bff6f;
+  text-shadow: 0 0 10px #59c2ff, 0 0 20px #59c2ff, 0 0 40px #59c2ff, 0 0 80px #59c2ff, 0 0 120px #59c2ff, 0 0 160px #59c2ff;
+}
+
 /*# sourceMappingURL=style2.css.map */
