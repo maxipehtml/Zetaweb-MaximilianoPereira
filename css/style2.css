@@ -37,6 +37,28 @@
   box-shadow: 0 0 50px #3bff6f;
 }
 
+footer a {
+  transition: 0.314s;
+  color: #aa2aff;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+footer a:hover {
+  color: #B3D883;
+  text-shadow: 0 0 10px #fc0859, 0 0 20px #fc0859, 0 0 40px #fc0859, 0 0 80px #fc0859, 0 0 120px #fc0859, 0 0 160px #fc0859;
+}
+
+#register a {
+  transition: 0.314s;
+  color: #aa2aff;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+#register a:hover {
+  color: #B3D883;
+  text-shadow: 0 0 10px #fc0859, 0 0 20px #fc0859, 0 0 40px #fc0859, 0 0 80px #fc0859, 0 0 120px #fc0859, 0 0 160px #fc0859;
+}
+
 .navbarZ {
   position: relative;
 }
@@ -52,14 +74,6 @@
   display: block;
   opacity: 100%;
 }
-.navbarZ ul li a {
-  color: #aa2aff;
-  text-decoration: none;
-  letter-spacing: 0.1em;
-}
-.navbarZ ul li a:hover {
-  color: #B3D883;
-}
 .navbarZ ul li ul {
   position: absolute;
   z-index: 1;
@@ -70,34 +84,64 @@
   border-width: 0.1ch;
   padding: 0;
 }
-.navbarZ ul li ul li a {
-  color: #aa2aff;
-  text-decoration: none;
-  letter-spacing: 0.1em;
-}
-.navbarZ ul li ul li a:hover {
-  color: #B3D883;
-}
 
-a {
-  transition: 0.314s;
-  color: #aa2aff;
+#menuAnimation a {
   text-decoration: none;
+  font-size: 1.1em;
   letter-spacing: 0.1em;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.7);
 }
-a:hover {
-  color: #B3D883;
-  text-shadow: 0 0 10px #fc0859, 0 0 20px #fc0859, 0 0 40px #fc0859, 0 0 80px #fc0859, 0 0 120px #fc0859, 0 0 160px #fc0859;
+#menuAnimation a::before {
+  content: attr(data-text);
+  position: absolute;
+  color: var(--clr);
+  width: 0;
+  overflow: hidden;
+  transition: 1s;
+  border-right: 5px solid var(--clr);
+  -webkit-text-stroke: 1.5px var(--clr);
+}
+#menuAnimation a:hover::before {
+  width: 100%;
+  filter: drop-shadow(0 0 25px var(--clr));
 }
 
 .arteZ a {
   transition: 0.314s;
-  color: #1535e7;
+  color: #2578f5;
   text-decoration: none;
   letter-spacing: 0.1em;
 }
 .arteZ a:hover {
   color: #fc0859;
+  text-shadow: 0 0 10px #59c2ff, 0 0 20px #59c2ff, 0 0 40px #59c2ff, 0 0 80px #59c2ff, 0 0 120px #59c2ff, 0 0 160px #59c2ff;
+}
+
+.tiendaZ .textJoyas {
+  font-size: 0.9rem !important;
+}
+.tiendaZ .textJoyas a {
+  transition: 0.314s;
+  color: #fc0859;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+.tiendaZ .textJoyas a:hover {
+  color: #2578f5;
+  text-shadow: 0 0 10px #59c2ff, 0 0 20px #59c2ff, 0 0 40px #59c2ff, 0 0 80px #59c2ff, 0 0 120px #59c2ff, 0 0 160px #59c2ff;
+}
+.tiendaZ .textosCarru {
+  font-size: 0.9rem !important;
+}
+.tiendaZ .textCuadros a {
+  transition: 0.314s;
+  color: #B3D883;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+.tiendaZ .textCuadros a:hover {
+  color: #3bff6f;
   text-shadow: 0 0 10px #59c2ff, 0 0 20px #59c2ff, 0 0 40px #59c2ff, 0 0 80px #59c2ff, 0 0 120px #59c2ff, 0 0 160px #59c2ff;
 }
 
