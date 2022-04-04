@@ -2,6 +2,38 @@
 @import "../base/extends";
 @import "../base/mixin";
 
+footer a{
+    transition: .314s;
+    color: $color-rojoalt ;
+    text-decoration: none; 
+    letter-spacing: 0.1em;
+    &:hover{
+        color: $color-amar;
+        text-shadow: 0 0 10px $color-rojo,
+        0 0 20px $color-rojo,
+        0 0 40px $color-rojo,
+        0 0 80px $color-rojo,
+        0 0 120px $color-rojo,
+        0 0 160px $color-rojo;
+
+            }
+} 
+#register a{
+    transition: .314s;
+    color: $color-rojoalt ;
+    text-decoration: none; 
+    letter-spacing: 0.1em;
+    &:hover{
+        color: $color-amar;
+        text-shadow: 0 0 10px $color-rojo,
+        0 0 20px $color-rojo,
+        0 0 40px $color-rojo,
+        0 0 80px $color-rojo,
+        0 0 120px $color-rojo,
+        0 0 160px $color-rojo;
+
+            }
+} 
 
 .navbarZ{
 
@@ -25,59 +57,52 @@
                     
                 }
             }
-            a{
-                color: $color-rojoalt ;
-                text-decoration: none; 
-                letter-spacing: 0.1em;
-                &:hover{
-                    color: $color-amar;
-                        }
-            }
+            
             ul{
 
                 position: absolute;
                 z-index: 1;
                 display: none;
-                border: outset;
+               border: outset;
                 border-color: $color-beige;
                 background-color: $color-dark;
                 border-width: 0.1ch;
                 padding: 0;
 
-                li{
-                    a{
 
-                        color: $color-rojoalt ;
-                        text-decoration: none; 
-                        letter-spacing: 0.1em;
-                        &:hover{
-                            color: $color-amar;
-                        }
-
-                    }
-                }
             }
         }
     }
     
 }
 
-a{
-    transition: .314s;
-    color: $color-rojoalt ;
+#menuAnimation a{
+    
     text-decoration: none; 
+    font-size: 1.1em;
     letter-spacing: 0.1em;
-    &:hover{
-        color: $color-amar;
-        text-shadow: 0 0 10px $color-rojo,
-        0 0 20px $color-rojo,
-        0 0 40px $color-rojo,
-        0 0 80px $color-rojo,
-        0 0 120px $color-rojo,
-        0 0 160px $color-rojo;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255,255,255,0.7);
+    &::before{
+        content: attr(data-text);
+        position: absolute;
+        color: var(--clr);
+        width: 0;
+        overflow: hidden;
+        transition: 1s;
+        border-right: 5px solid var(--clr);
+        -webkit-text-stroke: 1.5px var(--clr);
+    }
+    &:hover::before{
 
+        width: 100%;
+        filter: drop-shadow(0 0 25px var(--clr));
+
+
+        //color: $color-amar;
             }
 }
+
 
 .arteZ{
     a{
