@@ -17,13 +17,18 @@
 }
 
 .mixing4:hover {
-  box-shadow: 20px 0 25px #aa2aff;
+  box-shadow: 20px 0 25px #6b1bd4;
 }
 
 .mixing5:hover {
   box-shadow: -20px 0 30px #fc0859;
 }
 
+.mixing6 {
+  border: none;
+  outline: none;
+  box-shadow: 5px 5px 5px black, 15px 15px 15px black, 20px 20px 15px black, 30px 30 px 15px black, inset 1px 1px 2px #fff;
+}
 .mixing6:hover {
   box-shadow: 20px 0 30px #59c2ff;
 }
@@ -39,7 +44,7 @@
 
 footer a {
   transition: 0.314s;
-  color: #aa2aff;
+  color: #6b1bd4;
   text-decoration: none;
   letter-spacing: 0.1em;
 }
@@ -50,13 +55,19 @@ footer a:hover {
 
 #register a {
   transition: 0.314s;
-  color: #aa2aff;
+  color: #6b1bd4;
   text-decoration: none;
   letter-spacing: 0.1em;
 }
 #register a:hover {
   color: #B3D883;
   text-shadow: 0 0 10px #fc0859, 0 0 20px #fc0859, 0 0 40px #fc0859, 0 0 80px #fc0859, 0 0 120px #fc0859, 0 0 160px #fc0859;
+}
+
+.buttonZ {
+  border: none;
+  outline: none;
+  box-shadow: 5px 5px 5px black, 15px 15px 15px black, 20px 20px 15px black, 30px 30 px 15px black, inset 1px 1px 2px #fff;
 }
 
 .navbarZ {
@@ -90,7 +101,7 @@ footer a:hover {
   font-size: 1.1em;
   letter-spacing: 0.1em;
   color: transparent;
-  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.7);
+  -webkit-text-stroke: 0.5px rgba(33, 214, 190, 0.7);
 }
 #menuAnimation a::before {
   content: attr(data-text);

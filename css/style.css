@@ -24,11 +24,11 @@
     background-color: #232226 !important;
 }
 
-.dmstyle{
+/* .dmstyle{
 
     font-family: 'DM Sans',sans-serif !important;
 
-}
+} */
 
 .banner{
     position: relative;
@@ -39,6 +39,8 @@
     z-index: -1;
     
 }
+
+
 .containerParallax{
 
     position: absolute;
@@ -96,7 +98,7 @@ a{
 .arteZ{
 
     margin: 15px 0;
-    padding-left:15px;
+    padding-left:20px !important;
     padding-right: 0 !important;
 
 }
@@ -104,16 +106,10 @@ a{
 
 
 
-.arteZ{
-
-    padding-left:15px !important;
-
-
-}
 
 .tiendaText{
 
-    padding: 30px;
+    padding: 40px;
     text-align: center;
 
 
@@ -137,6 +133,8 @@ a{
     margin: 50px 30px;
 }
 
+
+
 .contactoZ{
 
     text-align: center;
@@ -144,16 +142,9 @@ a{
     padding: 30px 0;
 }
 
-.contactoZ1 div{
-
-    padding: 0px;
-}
 
 
-.formularioZ{
 
-    padding: 0;
-}
 
 .instSize{
     font-size: 40px;

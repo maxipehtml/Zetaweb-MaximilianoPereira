@@ -44,10 +44,18 @@
 .mixing6 {
 
     @include shadowColor(20px, 0, 30px, $color-cyan);
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0 , 1),
+    15px 15px 15px rgba(0, 0, 0 , 1),
+    20px 20px 15px rgba(0, 0, 0 , 1),
+    30px 30 px 15px rgba(0, 0, 0 , 1),
+    inset 1px  1px 2px #fff;
 
 }
 
 .mixing7 {
+
     transition: 3.14s;
     margin: 10px auto;
     border-radius:50%;
