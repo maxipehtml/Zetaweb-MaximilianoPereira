@@ -5,32 +5,69 @@
 }
 
 .mixing1:hover {
-  box-shadow: -20px 0 25px red;
+  box-shadow: -20px 0 20px red;
+  animation: animate 2.5s ease-in-out infinite;
+}
+@keyframes animate {
+  50% {
+    box-shadow: -20px 0 60px purple;
+    transform: scale(1.05);
+  }
 }
 
 .mixing2:hover {
-  box-shadow: -20px 0 25px #3bff6f;
+  box-shadow: -20px 0 20px #3bff6f;
+  animation: animate 2.5s ease-in-out infinite;
+}
+@keyframes animate {
+  50% {
+    box-shadow: -20px 0 60px purple;
+    transform: scale(1.05);
+  }
 }
 
 .mixing3:hover {
-  box-shadow: 20px 0 25px cyan;
+  box-shadow: 20px 0 20px cyan;
+  animation: animate 2.5s ease-in-out infinite;
+}
+@keyframes animate {
+  50% {
+    box-shadow: 20px 0 60px purple;
+    transform: scale(1.05);
+  }
 }
 
 .mixing4:hover {
-  box-shadow: 20px 0 25px #6b1bd4;
+  box-shadow: 20px 0 20px #6b1bd4;
+  animation: animate 2.5s ease-in-out infinite;
+}
+@keyframes animate {
+  50% {
+    box-shadow: 20px 0 60px purple;
+    transform: scale(1.05);
+  }
 }
 
 .mixing5:hover {
-  box-shadow: -20px 0 30px #fc0859;
+  box-shadow: -20px 0 20px #fc0859;
+  animation: animate 2.5s ease-in-out infinite;
+}
+@keyframes animate {
+  50% {
+    box-shadow: -20px 0 60px purple;
+    transform: scale(1.05);
+  }
 }
 
-.mixing6 {
-  border: none;
-  outline: none;
-  box-shadow: 5px 5px 5px black, 15px 15px 15px black, 20px 20px 15px black, 30px 30 px 15px black, inset 1px 1px 2px #fff;
-}
 .mixing6:hover {
-  box-shadow: 20px 0 30px #59c2ff;
+  box-shadow: 20px 0 20px #59c2ff;
+  animation: animate 2.5s ease-in-out infinite;
+}
+@keyframes animate {
+  50% {
+    box-shadow: 20px 0 60px purple;
+    transform: scale(1.05);
+  }
 }
 
 .mixing7 {
@@ -40,6 +77,13 @@
 }
 .mixing7:hover {
   box-shadow: 0 0 50px #3bff6f;
+  animation: animate 2.5s ease-in-out infinite;
+}
+@keyframes animate {
+  50% {
+    box-shadow: 0 0 60px purple;
+    transform: scale(1.05);
+  }
 }
 
 footer a {
