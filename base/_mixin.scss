@@ -2,55 +2,67 @@
 @import "../base/maps";
 
 
+
 @mixin shadowColor($x, $y, $blur, $color){
    
     &:hover{
 
-        box-shadow: $x $y $blur $color;
+        box-shadow: 
+         $x $y $blur $color;
+
+         animation: animate 2.5s ease-in-out infinite;
+
+       
     }
+    @keyframes animate{
+      50%{
+        box-shadow:  
+         $x $y 60px purple;
+         transform: scale(1.05);
+      }
+    }
+
     
 }
 
+
+
+
 .mixing1 {
 
-    @include shadowColor(-20px, 0, 25px, map-get($mapcolAlternativo1, rojo));
+    @include shadowColor(-20px, 0, 20px, map-get($mapcolAlternativo1, rojo));
 
 }
 
 .mixing2 {
 
-    @include shadowColor(-20px, 0, 25px, $color-verde);
+    @include shadowColor(-20px, 0, 20px, $color-verde);
 
 }
 
 .mixing3 {
 
-    @include shadowColor(20px, 0, 25px, map-get($mapcolAlternativo1, cyan1));
+    @include shadowColor(20px, 0, 20px, map-get($mapcolAlternativo1, cyan1));
 
 }
 
 .mixing4 {
 
-    @include shadowColor(20px, 0, 25px, $color-rojoalt);
+    @include shadowColor(20px, 0, 20px, $color-rojoalt);
 
 }
 
 .mixing5 {
 
-    @include shadowColor(-20px, 0, 30px, $color-rojo);
+    @include shadowColor(-20px, 0, 20px, $color-rojo);
 
 }
 
 .mixing6 {
 
-    @include shadowColor(20px, 0, 30px, $color-cyan);
-    border: none;
-    outline: none;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0 , 1),
-    15px 15px 15px rgba(0, 0, 0 , 1),
-    20px 20px 15px rgba(0, 0, 0 , 1),
-    30px 30 px 15px rgba(0, 0, 0 , 1),
-    inset 1px  1px 2px #fff;
+    @include shadowColor(20px, 0, 20px, $color-cyan);
+
+
 
 }
 

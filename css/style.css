@@ -67,7 +67,11 @@
     width: 100%;
     height: 100vh;
     object-fit: cover;
+    
 }
+
+
+
 
 h1, h2 {
 
@@ -173,13 +177,6 @@ a{
 }
 
 
-.sliderZ{
-
-    width: auto ;
-    height: auto;
-
-}
-
 
 
 #menuhamburguesa{
@@ -188,9 +185,6 @@ a{
     display: none;
 
 }
-
-
-
 
 
 .menuCenter{
@@ -203,10 +197,6 @@ a{
 
     color: var(--color-verde);
 
-}
-.loginPerfil{
-
-    color: var(--color-verde);
 }
 
 
