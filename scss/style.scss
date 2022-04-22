@@ -2,11 +2,16 @@
 @import "../base/extends";
 @import "../base/mixin";
 
-footer a{
+footer{
+    ul{
+        padding: 0;
+    }
+    a{
     transition: .314s;
     color: $color-rojoalt ;
     text-decoration: none; 
     letter-spacing: 0.1em;
+    margin-right: 6px;
     &:hover{
         color: $color-amar;
         text-shadow: 0 0 10px $color-rojo,
@@ -17,6 +22,8 @@ footer a{
         0 0 160px $color-rojo;
 
             }
+
+        }
 } 
 #register a{
     transition: .314s;
@@ -135,6 +142,21 @@ footer a{
 }
 
 }
+
+.contactoZ{
+
+    text-align: center;
+
+    padding: 30px 0;
+
+    form{
+        text-align: left;
+
+    }
+
+
+}
+
 
 .tiendaZ{
     .textJoyas{
