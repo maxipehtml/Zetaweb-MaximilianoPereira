@@ -177,6 +177,19 @@ footer a:hover {
   text-shadow: 0 0 10px #59c2ff, 0 0 20px #59c2ff, 0 0 40px #59c2ff, 0 0 80px #59c2ff, 0 0 120px #59c2ff, 0 0 160px #59c2ff;
 }
 
+.hoverA {
+  transition: 0.314s;
+  color: #2578f5;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+
+}
+
+.hoverA:hover {
+  color: #fc0859;
+  text-shadow: 0 0 10px #59c2ff, 0 0 20px #59c2ff, 0 0 40px #59c2ff, 0 0 80px #59c2ff, 0 0 120px #59c2ff, 0 0 160px #59c2ff;
+}
+
 .contactoZ {
   text-align: center;
   padding: 30px 0;
